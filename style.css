@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'SinaNovaReg';
+    src: url('fonts/SinaNovaReg-webfont.woff2') format('woff2'),
+         url('fonts/SinaNovaReg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DancingScript';
+    src: url('fonts/dancingscript-regular-webfont.woff2') format('woff2'),
+         url('fonts/dancingscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  margin: 0;
+  background-color: #fff1d9;
+  padding-bottom: 100px;
+}
+
+.title {
+  text-align: center;
+  background-color: #fff1d9;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+}
+
+.title h1 {
+  text-align: center;
+  padding: 45px 0 0 0;
+  font-family: 'SinaNovaReg';
+  font-variant: small-caps;
+  margin: 0;
+  font-size: 20px;
+  color: #363131;
+  margin-left: 100px;
+}
+
+.title h2 {
+  text-align: center;
+  padding: 0 0 60px 0;
+  font-family: 'SinaNovaReg';
+  font-variant: small-caps;
+  font-size: 36px;
+  margin: 0;
+  color: #363131;
+  margin-left: 100px;
+}
+
+.title img {
+  float: right;
+  height: 80px;
+  margin-top: 35px;
+  margin-right: 120px;
+}
+
+.drink {
+  text-align: center;
+  background-color: #fffaf0;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+}
+
+/* Drink title */
+.drink h2 {
+  font-family: 'DancingScript';
+  margin: 0;
+  color: #ff5754;
+}
+
+/* Drink description */
+.drink h4 {
+  font-family: 'SinaNovaReg';
+  margin-top: 5px;
+  color: #363131;
+}
+
+.drink div {
+  font-size: 20px;
+  color: #363131;
+  -webkit-transform: rotate(87deg);
+	-moz-transform: rotate(87deg);
+	transform: rotate(87deg);
+}
